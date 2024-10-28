@@ -21,7 +21,7 @@ const Promotions  = () => {
     <div className="max-w-md">
       <h1 className="scroll-m-20 hover:text-myOrange text-4xl font-bold tracking-tight uppercase">Huge Sale Upto <span className='text-myOrange'>40%</span> Off</h1>
       <p className="scroll-m-20 text-base font-medium text-white mt-2 tracking-tight">
-      "Join us for our seasonal sale and stock up on essentials at amazing prices!"
+      Join us for our seasonal sale and stock up on essentials at amazing prices!
       </p>
       
     </div>

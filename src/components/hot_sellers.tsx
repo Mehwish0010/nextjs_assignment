@@ -1,31 +1,32 @@
 import React from 'react'
-import Image from 'next/image'
+
 import Pic from "@/components/assets/images/best sellers1.webp"
 import Pic2 from"@/components/assets/images/shoess.webp"
 import Pic3 from "@/components/assets/images/best1.webp"
 import Best_Seller_Box from './best_sellerbox'
 const Best_Sellers = () => {
   const best_Sell=[
-    {
+    {id:1,
       src: Pic,
       alt: "dress",
       title: "Mid-Winter",
       description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
       price:3390
   },
-  {
+  {id:2,
     src: Pic2,
     alt: "shoes",
     title: "Formal Court Shoes IF5005-GREEN",
     description: "Top Notch shoes for women",
     price:5000
 },
-{
+{id:3,
   src: Pic3,
   alt: "dress",
   title: "Kidz Wear",
   description: "Printed Khaddar Shirt",
   price:2250
+  
 }
   
 ];
@@ -46,8 +47,8 @@ const Best_Sellers = () => {
 {/*card*/}
 <div className=' flex flex-wrap justify-center gap-5'>
 {
-  best_Sell.map((item,i) =>(
-    <Best_Seller_Box src={ item.src} alt={item.alt} title={item.title} description={item.description} price={item.price}/>
+  best_Sell.map((item) =>(
+    <Best_Seller_Box key={item.id} src={ item.src} alt={item.alt}  title={item.title}  description={item.description} price={item.price}/>
   ))
 }
 </div>

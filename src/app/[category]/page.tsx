@@ -18,93 +18,93 @@ import Dress15 from "@/components/assets/images/limited4.webp"
 const Category = () => {
 
     const best_Sell=[
-        {
+        {id:1,
           src: Dress8,
           alt: "dress",
           title: "Mid-Winter",
           description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
           price:3390
       },
-      {
+      {id:2,
         src: Dress2,
         alt: "shoes",
         title: "Formal Court Shoes IF5005-GREEN",
         description: "Top Notch shoes for women",
         price:5000
     },
-    {
+    {id:3,
       src:Dress13 ,
       alt: "dress",
       title: "Kidz Wear",
       description: "Printed Khaddar Shirt",
       price:2250
-    },{
+    },{id:4,
       src: Dress5,
       alt: "dress",
       title: "Mid-Winter",
       description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
       price:3390
-  },{
+  },{id:5,
     src: Dress6,
     alt: "dress",
     title: "Mid-Winter",
     description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
     price:3390
-},{
+},{id:6,
   src: Dress7,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:7,
   src: Dress4,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:8,
   src: Dress9,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:9,
   src: Dress1,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:10,
   src: Dress10,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:11,
   src: Dress15,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:12,
   src: Dress14,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:13,
   src: Dress3,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:14,
   src: Dress12,
   alt: "dress",
   title: "Mid-Winter",
   description: "3 Piece Printed Khaddar Suit With Light Khaddar Dupatta",
   price:3390
-},{
+},{id:15,
   src: Dress11,
   alt: "dress",
   title: "Mid-Winter",
@@ -129,8 +129,8 @@ const Category = () => {
 {/*Category start */}
 <div className=' flex flex-wrap justify-center gap-5'>
 {
-  best_Sell.map((item,i) =>(
-    <Best_Seller_Box src={ item.src} alt={item.alt} title={item.title} description={item.description} price={item.price}/>
+  best_Sell.map((item) =>(
+    <Best_Seller_Box  key={item.id}src={ item.src} alt={item.alt} title={item.title} description={item.description} price={item.price}/>
   ))
 }
 </div>
