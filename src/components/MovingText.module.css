@@ -1,0 +1,20 @@
+.movingText {
+    animation: moveText 7s linear infinite;
+    overflow: hidden; /* Adjust duration as needed */
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.brandName {
+    margin: 0 20px; 
+    /* Adjust spacing between names */
+    display: inline-block;
+}
+
