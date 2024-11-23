@@ -7,12 +7,12 @@ function Footer() {
     <div><>
   
     <footer className="">
-      <div className="container bg-slate-400 px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div className="container bg-myhover px-5 py-5 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             
           <Image src={Image2} alt="logo"width={150} height={100} className="hidden:lg block ml-4"/> 
-            <span className="ml-3 text-xl font-semibold text-myWhite">Fashion Clothing Store</span>
+            <span className="ml-3 text-xl font-semibold text-myWhite">Fashion  Awaken Clothing Store</span>
           </a>
     
         </div>
@@ -23,16 +23,16 @@ function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <Link href="/" className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Branding</Link>
+                <Link href="/" className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Branding</Link>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Designs</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Designs</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Marketing</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Marketing</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold  tracking-tight title-font text-lg mb-3 hover:text-myhover">Advertising</a>
+                <a className="text-white font-semibold  tracking-tight title-font text-lg mb-3 hover:text-myhover">Advertising</a>
               </li>
             </nav>
           </div>
@@ -42,16 +42,16 @@ function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Home</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Home</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">About Us</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">About Us</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Jobs</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Jobs</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Contact Us</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Contact Us</a>
               </li>
             </nav>
           </div>
@@ -61,13 +61,13 @@ function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Terms Of Use</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Terms Of Use</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Privacy Policy</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Privacy Policy</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Cookie Policy</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Cookie Policy</a>
               </li>
               
             </nav>
@@ -78,36 +78,36 @@ function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Feature</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Feature</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Enterprise</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Enterprise</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Security</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Security</a>
               </li>
               <li>
-                <a className="text-gray-600 font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Pricing</a>
+                <a className="text-white font-semibold tracking-tight title-font text-lg mb-3 hover:text-myhover">Pricing</a>
               </li>
             </nav>
           </div>
         </div>
       </div>
-      <div className="bg-">
+      <div className="bg-myhover">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left font-semibold">
+          <p className="text-white text-sm text-center sm:text-left font-semibold">
           © 2024 Fashion Avenue. All rights reserved.
             <a
               href="https://twitter.com/fashion"
               rel="noopener noreferrer"
-              className="text-gray-600 ml-1 font-semibold tracking-tight title-font text-lg mb-3 "
+              className="text-white ml-1 font-semibold tracking-tight title-font text-lg mb-3 "
               target="_blank"
             >
               @mehwishfatima
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a className="text-gray-500">
+            <a className="text-white">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -119,7 +119,7 @@ function Footer() {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a className="ml-3 text-white">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -131,7 +131,7 @@ function Footer() {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a className="ml-3 text-white">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -145,7 +145,7 @@ function Footer() {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01" />
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
+            <a className="ml-3 text-white">
               <svg
                 fill="currentColor"
                 stroke="currentColor"

@@ -1,5 +1,5 @@
 .movingText {
-    animation: moveText 7s linear infinite;
+    animation: moveText 30s linear infinite;
     overflow: hidden; /* Adjust duration as needed */
 }
 
